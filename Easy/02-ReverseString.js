@@ -7,6 +7,6 @@ let s = ["H","a","n","n","a","h"] //- RESULTADO ESPERADO ["h","a","n","n","a","H
 
 
 // Codigo
-lista_invertida = s.reverse()
-// return lista_invertida
-console.log(lista_invertida)
+listaInvertida = s.reverse()
+// return listaInvertida
+console.log(listaInvertida)

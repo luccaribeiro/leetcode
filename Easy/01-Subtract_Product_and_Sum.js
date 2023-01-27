@@ -7,13 +7,13 @@ let n = 234 // - RESULTADO ESPERADO 15
 
 
 // Codigo
-let lista_digitos = n.toString().split("")  // Transformando o numero inteiro em string e depois em uma lista com cada numero compondo um elemento 
+let listaDigitos = n.toString().split("")  // Transformando o numero inteiro em string e depois em uma lista com cada numero compondo um elemento 
 let soma = 0 
 let multiplicacao = 1
 
-for (let numero of lista_digitos) {
+for (let numero of listaDigitos) {
     soma += parseInt(numero) // cada numero na lista sendo somado com a variavel soma
-    multiplicacao *= parseInt(numero) // cada numero na lista sendo multiplicado com a variavel mult
+    multiplicacao *= parseInt(numero) // cada numero na lista sendo multiplicado com a variavel multiplicacao
 }
 let resultado = multiplicacao - soma // multiplicação - soma 
 // return resultado
